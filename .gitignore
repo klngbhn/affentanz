@@ -1,7 +1,4 @@
-/linux-build
-/android/assets
 /android/bin
 /android/obj
 /android/libs
 /Dependencies
-/eclipse-build
