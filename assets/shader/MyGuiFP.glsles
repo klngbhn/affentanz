@@ -1,0 +1,22 @@
+    #version 100
+
+    precision highp int;
+    precision highp float;
+
+    uniform sampler2D sampler;
+   
+
+    varying vec4 outUV0;
+   varying vec4 outColor;
+
+    /*
+      Basic texturing fragment program for GLSL ES
+    */
+    void main()
+    {
+      vec4 cl = outColor;
+      vec4 tc = texture2D(sampler, outUV0.xy) ;
+      vec4 fc = outColor * tc;
+         gl_FragColor = fc;
+
+    }
