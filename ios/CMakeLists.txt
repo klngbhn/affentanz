@@ -59,10 +59,10 @@ set (DEPENDENCIES
 	${OGRE_SOURCE}/iOSDependencies/lib/libboost_date_time.a
 	${OGRE_SOURCE}/iOSDependencies/lib/libboost_system.a
 	${OGRE_SOURCE}/iOSDependencies/lib/libboost_thread.a
-	#${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/iphoneos/libBulletSoftBody.a
-	#${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/iphoneos/libBulletDynamics.a
-	#${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/iphoneos/libBulletCollision.a
-	#${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/iphoneos/libLinearMath.a
+	${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/libBulletSoftBody_xcode4_debug.a
+	${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/libBulletDynamics_xcode4_debug.a
+	${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/libBulletCollision_xcode4_debug.a
+	${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/libLinearMath_xcode4_debug.a
 	
 	#${PROJECT_SOURCE_DIR}/../iOSDependencies/ogre/lib/Release/libFreeImage.a
 	#${PROJECT_SOURCE_DIR}/../iOSDependencies/ogre/lib/Release/libfreetype.a
@@ -77,7 +77,7 @@ set (DEPENDENCIES
 	#${PROJECT_SOURCE_DIR}/../iOSDependencies/ogre/lib/Release/libzlib.a
 	#${PROJECT_SOURCE_DIR}/../iOSDependencies/ogre/lib/Release/libzziplib.a
 	
-	${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/libbullet.a
+	#${PROJECT_SOURCE_DIR}/../iOSDependencies/bullet/lib/libbullet.a
 	${PROJECT_SOURCE_DIR}/../iOSDependencies/lua/liblua.a
 	
 	#${PROJECT_SOURCE_DIR}/../iOSDependencies/mygui/lib/Release/libMyGUIEngineStatic.a
